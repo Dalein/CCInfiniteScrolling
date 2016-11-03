@@ -151,7 +151,7 @@ static CGFloat is_infinityScrollingTriggerOffset = 0;
 - (BOOL)is_checkForEmptyContent
 {
     return (self.height == 0 ||
-            self.contentHeight <= 0.7 * (self.height - self.contentInsetTop - self.contentInsetBottom)); //Если iPhone6+ нужно чтоб срабатывало на меньший размер
+            self.contentHeight <= 0.8 * (self.height - self.contentInsetTop - self.contentInsetBottom)); //Если iPhone6+ нужно чтоб срабатывало на меньший размер
 
 }
 
